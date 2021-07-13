@@ -1,6 +1,16 @@
+import { Bars, Nav, NavIcon, NavLink} from './NavbarElements';
+
 const Navbar = () => {
     return ( 
-        <h1>Navbar</h1>
+        <>
+            <Nav>
+                <NavLink to="/">Pizza</NavLink>
+                <NavIcon>
+                    <p>Menu</p>
+                    <Bars/>
+                </NavIcon>
+            </Nav>
+        </>
      );
 }
  
